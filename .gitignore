@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+venv_310/
+.venv/
+
+# Environment variables
+.env
+
+# Streamlit config
+.streamlit/
+
+# Model files
+*.pt
+*.pth
+
+# Excel and video outputs
+*.xlsx
+*.csv
+*.mp4
+*.avi
+
+# OS-specific files
+.DS_Store
+Thumbs.db

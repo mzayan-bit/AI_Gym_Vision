@@ -1,0 +1,24 @@
+names:
+- Chest Press machine #done
+- Lat Pull Down #done
+- Seated Cable Rows #N
+- arm curl machine # done 
+- chest fly machine    #done
+- chinning dipping #N
+- lateral raises machine #done 
+- leg extension   #done
+- leg press     #done
+- reg curl machine
+- seated dip machine   #done
+- shoulder press machine #done
+- smith machine   #done
+nc: 13
+roboflow:
+  license: CC BY 4.0
+  project: gym-equipment-object-detection-2agww
+  url: https://universe.roboflow.com/helmet-detection-fls3r/gym-equipment-object-detection-2agww/dataset/1
+  version: 1
+  workspace: helmet-detection-fls3r
+test: /content/gym_equipment_custom_split/test/images
+train: /content/gym_equipment_custom_split/train/images
+val: /content/gym_equipment_custom_split/val/images

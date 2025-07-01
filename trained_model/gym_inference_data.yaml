@@ -1,0 +1,34 @@
+# Place this file in your 'trained_model' directory
+# (e.g., your_project_folder/trained_model/gym_inference_data.yaml)
+
+names:
+  0: 'Chest Press machine'
+  1: 'Lat Pull Down'
+  2: 'Seated Cable Rows'
+  3: 'arm curl machine'
+  4: 'chest fly machine'
+  5: 'chinning dipping'
+  6: 'lateral raises machine'
+  7: 'leg extension'
+  8: 'leg press'
+  9: 'reg curl machine'
+  10: 'seated dip machine'
+  11: 'shoulder press machine'
+  12: 'smith machine'
+
+nc: 13
+
+# The 'path', 'roboflow', 'test', 'train', 'val' sections are primarily
+# for training and dataset organization within a YOLO project.
+# They are not strictly needed for inference if you are loading the model
+# and its class names directly from the .pt file and this YAML.
+# However, keeping them doesn't hurt.
+roboflow:
+  license: CC BY 4.0
+  project: gym-equipment-object-detection-2agww
+  url: https://universe.roboflow.com/helmet-detection-fls3r/gym-equipment-object-detection-2agww/dataset/1
+  version: 1
+  workspace: helmet-detection-fls3r
+test: /content/gym_equipment_custom_split/test/images
+train: /content/gym_equipment_custom_split/train/images
+val: /content/gym_equipment_custom_split/val/images
