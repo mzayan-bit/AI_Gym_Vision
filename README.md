@@ -1,6 +1,6 @@
 # AI Gym Vision 🏋️
 
-An AI-powered fitness coach that uses computer vision to analyze gym exercises in real-time. This project was developed by interns at [Your Company Name].
+An AI-powered fitness coach that uses computer vision to analyze gym exercises in real-time. This project was developed by interns at Integration Xperts.
 
 ## Features
 - **Machine Exercise Analysis:** Provides real-time form correction, rep counting, and scoring for various gym machine exercises.
