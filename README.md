@@ -21,8 +21,6 @@ An AI-powered fitness coach that uses computer vision to analyze gym exercises i
     pip install -r requirements.txt
     ```
 
-3.  **Download Model Files:**
-    The required YOLO model files (`gym.pt`, `yolov8n.pt`) are not included in this repository due to their size. Please download them from [Provide a Link here, e.g., Google Drive, or just a note to find them] and place them in the `trained_model/` directory.
 
 ## How to Run
 
